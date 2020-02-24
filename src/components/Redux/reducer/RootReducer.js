@@ -5,3 +5,4 @@ import chapters from './ChaptersReducer'
 export default combineReducers({
     subject: subject,
     chapters: chapters
+})
