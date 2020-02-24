@@ -1,0 +1,72 @@
+#header {
+    background-image: url("../images/Rectangle\ 91.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+#basic-navbar-nav .mr-auto-custom {
+    margin-left: auto!important;
+    margin-right: 2em;
+}
+
+#subscrib-NavBar-btn {
+    padding: .2rem 1.2rem;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+
+#subscrib-NavBar-btn:active , #subscrib-NavBar-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#NavBar .navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+#navBar-mainPage {
+    border-bottom: .1em solid #008dd2;
+    padding: .5rem 0rem;
+}
+#basic-navbar-nav {
+    margin-top: 1em;
+}
+#signIn-NavBar-btn{
+    margin-left: 1em;
+    padding: .2rem 1.2rem;
+    border-radius: 1em;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+#signIn-NavBar-btn:active , #signIn-NavBar-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#menu-navBar-btn {
+    background-color: black;
+    border-radius: 50%;
+    border-color: black;
+    padding: .32rem .6rem
+}
+#menu-navBar-btn:active , #menu-navBar-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.header-text{
+    text-align: right;
+    margin-bottom: 2em;
+}
+.header-text span {
+    font-size: 1.6em;
+   
+}
+
+
+.header-book-img-wrapper img {
+    position: absolute;
+    left: 0;
+}

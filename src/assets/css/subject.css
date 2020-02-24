@@ -1,0 +1,91 @@
+.subject-main {
+    position: relative;
+    display: inline-block;
+    
+   
+}
+.subject-wrapper {
+    background-color: #f5f5f5;
+    /* position: absolute; */
+    display: block;
+    /* padding: .7em 3em; */
+}
+.subject-wrapper img {
+    display: block;
+
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    /* transition: 1s ease; */
+    transition:   1s ease-in;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+}
+.subject-main:hover .overlay {
+    opacity: 1;
+  }
+
+#overlay-title {
+    color: black;
+    padding: .25em;
+}
+
+/* carrousal */
+
+.carousel-indicators {
+    padding-right: 0;
+}
+
+.carousel .carousel-indicators li {
+    width: 5px;
+    border-radius: 50%;
+    height: 5px;
+    color: black;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+}
+.carousel ol{
+    margin-bottom: 0;
+}
+.carousel .carousel-control-prev{
+    display: none;
+}
+.carousel .carousel-control-next{
+    display: none;
+}
+.carousel-inner {
+    background-color: darkblue;
+}
+.subject-main .card {
+    border: none;
+}
+
+.card-list {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: right;
+}
+.card-list a {
+    color: inherit;
+    text-decoration: none;
+}
+.card-list a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.card-list li{
+    border-bottom: .05px solid white;
+    padding: .45em;
+}
+.card-list li:last-child {
+    border-bottom: none;
+}
